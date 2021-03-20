@@ -1,0 +1,21 @@
+{
+  "name": "vercel-deploy-nextjs-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir dist && cp ./plugin.json ./dist/plugin.json",
+    "clean": "rm -rf ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeksco/vercel-deploy-nextjs-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeksco/vercel-deploy-nextjs-plugin/issues"
+  },
+  "homepage": "https://github.com/aeksco/vercel-deploy-nextjs-plugin#readme"
+}
