@@ -3,8 +3,9 @@ cp -rT ./next-app-repo ./next-app
 ls -la ./next-app
 yarn install
 yarn build
+ls -la
 mkdir ./next-app/plugin
-cp -R ./dist ./next-app/plugin
+mv ./dist ./next-app/plugin/dist
 yarn --cwd ./next-app install
 yarn --cwd ./next-app build
 ls -la ./next-app
