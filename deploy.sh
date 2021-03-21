@@ -4,7 +4,6 @@ ls -la ./next-app
 yarn install
 yarn build
 ls -la
-mkdir ./next-app/plugin
 mv ./dist ./next-app/plugin/dist
 yarn --cwd ./next-app install
 yarn --cwd ./next-app build
