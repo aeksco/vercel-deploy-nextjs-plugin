@@ -1,4 +1,6 @@
 git clone https://github.com/aeksco/vercel-deploy-nextjs-base.git ./next-app-repo
+rm -rf ./next-app/node_modules
+rm -rf ./next-app/pages
 rm ./next-app/*
 cp -rT ./next-app-repo ./next-app
 # ls -la ./next-app
